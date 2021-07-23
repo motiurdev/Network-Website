@@ -238,6 +238,34 @@ i.fas.fa-arrow-right {
 }
 
 
+/* Faq Style */
+
+#faq-section {
+    background-color: var(--bg-color);
+}
+
+.faqs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 100px 0;
+}
+
+.faq {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.faq-icon i {
+    color: #23A6F0;
+}
+
+.faq-content {
+    margin-left: 20px;
+}
+
 
 
 
